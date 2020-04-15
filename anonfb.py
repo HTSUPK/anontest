@@ -26,14 +26,11 @@ logo='''
 88      `8b   ,8P  Y8,    88
 88      a8P  d8'    `8b   88
 88888888P'  8P        Y8  88
-
 --------------------------------------------------
-
  Auther   : Binyamin
  GitHub   : https://github.com/binyamin-binni
  YouTube  : Trick Proof
  Blogspot : https://trickproof.blogspot.com
-
 --------------------------------------------------
                                 '''
 
@@ -62,7 +59,7 @@ while (loop == 'true'):
 def tik():
         titik = ['.   ','..  ','... ']
         for o in titik:
-                print("\r[ΓùÅ] Loging In "+o),;sys.stdout.flush();time.sleep(1)
+                print("\r Loging In "+o),;sys.stdout.flush();time.sleep(1)
 
 def login():
     os.system("clear")
